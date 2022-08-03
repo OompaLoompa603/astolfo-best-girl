@@ -1,0 +1,70 @@
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    height: -webkit-fill-available;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    perspective: 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+}
+
+.title {
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+section {
+    font-size: 2rem;
+    padding: 3rem;
+    background-color: pink;
+    height: 90vh;
+    text-align: center;
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/*.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  /*.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+  /*  scrollbar-width: none;  /* Firefox */
+  /*}
+
+
