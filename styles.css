@@ -48,12 +48,18 @@ header {
 }
 
 section {
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 3rem;
     background-color: pink;
-    height: 90vh;
-    text-align: center;
-    
+    height: 100vh;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#protectionSection {
+    font-size: 1.5rem;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
