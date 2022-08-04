@@ -42,14 +42,14 @@ header {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     color: white;
     text-shadow: 0 0 5px black;
 }
 
 section {
     font-size: 1.75rem;
-    padding: 3rem;
+    padding: 2.5rem;
     background-color: pink;
     height: 100vh;
     text-align: center; 
@@ -60,6 +60,10 @@ section {
 
 #protectionSection {
     font-size: 1.5rem;
+}
+
+#monky {
+    padding: .5rem;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
