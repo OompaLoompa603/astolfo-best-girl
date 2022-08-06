@@ -43,14 +43,17 @@ header {
 
 .title {
     font-size: 3.25rem;
+    font-family: 'Acme', sans-serif;
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
 }
 
 section {
     font-size: 1.75rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: white;
     padding: 2.5rem;
-    background-color: pink;
+    background-color: rgb(181, 27, 88);
     height: 100vh;
     text-align: center; 
     display: flex;
@@ -75,6 +78,65 @@ section {
   /*.example {
     -ms-overflow-style: none;  /* IE and Edge */
   /*  scrollbar-width: none;  /* Firefox */
-  /*}
 
+@media only screen and (min-width: 768px) {
+   .title {
+    font-size: 4rem;
+    padding: 3rem;
+   }
+    section {
+    font-size: 2.25rem;
+    padding: 3rem;
+   }
+   #protectionSection {
+    font-size: 2rem;
+   }
+   #monky {
+    padding: 1.5rem;
+   }
+}
 
+@media only screen and (min-width: 1024px) {
+    .title {
+    font-size: 5rem;
+    padding: 3rem;
+    }
+    section {
+    font-size: 2.75rem;
+    padding: 3rem;
+    }
+    #protectionSection {
+    font-size: 2.5rem;
+    }
+    #monky {
+    padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .title {
+    font-size: 7rem;
+    padding: 3.5rem;
+    }
+    section {
+    font-size: 3.5rem;
+    padding: 5rem;
+    }
+    #protectionSection {
+    font-size: 3.25rem;
+    }
+}
+
+@media only screen and (min-width: 1880px) {
+    .title {
+        font-size: 10rem;
+        padding: 5rem;
+    }
+    section {
+        font-size: 3.5;
+        padding: 12rem;
+    }
+    #protectionSection {
+        padding: 10rem;
+    }
+}
